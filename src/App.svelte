@@ -1,0 +1,48 @@
+	<div class="App">
+        <h1>Hello World!</h1>
+        <h2>Welcome To My Card</h2>
+        <img class="card" src="https://media.cnn.com/api/v1/images/stellar/prod/231212131107-01-ronaldo-50-goals.jpg?c=16x9&q=h_833,w_1480,c_fill" alt="Ronaldo" />
+        <div class="paragraph">
+          <p>This is Cristiano Ronaldo. One of the greatest Football/Soccer players ever.</p>
+        </div>
+        <div class="btn-wrapper">
+ <a href="https://hax.psu.edu">
+   <button>Details</button></a></div>
+      </div>
+
+<style>
+	.App {
+  text-align: center;
+}
+
+.card{
+  border-style: dotted;
+  border-width: 4px;
+  border-color: black;
+  border-radius: 10px;
+}
+img {
+  margin: 40px;
+  width: 500px;
+  height: auto;
+  width: 450px;
+}
+.btn-wrapper {
+  margin: 24px;
+}
+.btn-wrapper button {
+  font-size: 24px;
+  color: blue;
+  background-color: lightgray;
+}
+.btn-wrapper button:hover {
+  color: lightgray;
+  background-color: blue;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-style: italic;
+  margin: 25px;
+}
+</style>
